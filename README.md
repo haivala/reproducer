@@ -1,18 +1,11 @@
 # Repoducer for https://github.com/symfony/symfony/issues/53972
 
-## install
-
-You need database and uploaded files from production.
-check .env
-
-## development
-
-### requirements
+## requirements
 
 1. docker
 2. docker-compose
 
-### install
+## install
 
 1. docker compose up -d
 1. docker compose exec fpm ../composer.phar install
