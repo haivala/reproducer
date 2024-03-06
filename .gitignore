@@ -1,0 +1,10 @@
+docker/backup
+docker/data
+/.env.*.local
+/.env
+.vscode
+dump.sql
+.php_cs.cache
+compose.override.yaml
+.php-cs-fixer.cache
+docker-compose.override.sublime-workspace
